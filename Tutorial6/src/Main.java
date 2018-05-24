@@ -1,6 +1,7 @@
 
 public class Main {
 	final static int N = 30;
+	final static int M = 15;
 	public static void main(String[] args) {
 		int score = 95;
 		if(score >= 90)
@@ -58,6 +59,21 @@ public class Main {
 				System.out.print("*");
 			}
 			System.out.print("\n");
+		}
+		for(int i = -M; i <= M; i++)
+		{
+			for(int j = -M; j<=M; j++)
+			{
+				if(i*i+j*j <=M*M)
+				{
+					System.out.print("*");;
+				}
+				else
+				{
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
 		}
 	}
 
