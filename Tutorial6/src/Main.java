@@ -1,6 +1,6 @@
 
 public class Main {
-
+	final static int N = 30;
 	public static void main(String[] args) {
 		int score = 95;
 		if(score >= 90)
@@ -44,6 +44,20 @@ public class Main {
 		else
 		{
 			System.out.println("거짓입니다");
+		}
+		int k = 1, sum = 0;
+		while(k <= 1000)
+		{
+			sum += k++;
+		}
+		System.out.println("1부터 1000까지의 합은 "+ sum +"입니다");
+		for(int i = N; i > 0; i--)
+		{
+			for(int j = i; j>0; j--)
+			{
+				System.out.print("*");
+			}
+			System.out.print("\n");
 		}
 	}
 
