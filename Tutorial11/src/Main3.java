@@ -16,7 +16,7 @@ public class Main3 {
 			
 	}
 	public static void main(String[] args) {
-		System.out.println("피보나치 수열의 5번째 원수는 " + fibonacci(10) + " 입니다.");
+		System.out.println("피보나치 수열의 5번째 원수는 " + fibonacci(15) + " 입니다.");
 	}
 
 }
